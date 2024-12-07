@@ -125,7 +125,7 @@ class Test(unittest.TestCase):
     def test_part1(self):
         self.assertEqual(part1("/example.txt"), 18)
     def test_part2(self):
-        self.assertEqual(part2("/example2.txt"), 9)
+        self.assertEqual(part2("/example.txt"), 9)
 
 if __name__ == "__main__":
     # unittest.main()
